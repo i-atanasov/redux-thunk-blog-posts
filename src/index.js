@@ -7,6 +7,7 @@ import thunk from 'redux-thunk';
 import App from './components/App';
 import reducers from './reducers';
 
+
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 
@@ -17,3 +18,4 @@ root.render(
         <App />
     </Provider>
     );
+
